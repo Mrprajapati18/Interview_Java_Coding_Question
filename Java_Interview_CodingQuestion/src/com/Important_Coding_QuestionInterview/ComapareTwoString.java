@@ -1,4 +1,4 @@
-package Important_Coding_QuestionInterview;
+package com.Important_Coding_QuestionInterview;
 
 //  Write a Java program to compare two strings?
 

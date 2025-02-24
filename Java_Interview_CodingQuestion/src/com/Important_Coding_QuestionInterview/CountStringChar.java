@@ -1,4 +1,4 @@
-package Important_Coding_QuestionInterview;
+package com.Important_Coding_QuestionInterview;
 
 // Write a Java Program to count the number of characters in a given Strin
 
