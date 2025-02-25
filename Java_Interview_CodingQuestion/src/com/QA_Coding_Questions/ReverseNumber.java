@@ -14,8 +14,9 @@ public class ReverseNumber {
 		int Reverse = 0;
 		
 		while(Number != 0) {
-			int Digit = Number % 10;  // Find the Last digit
-			Reverse = Reverse * 10 + Digit; // Append digit to reverse digit 
+			// int Digit = Number % 10;  // Find the Last digit
+			Reverse = Reverse*10 + Number % 10;
+			// Reverse = Reverse * 10 + Digit; // Append digit to reverse digit 
 			Number  = Number / 10;    // Remove the last Digit		
 		}
 		System.out.println("Reverse Number is " + Reverse);
