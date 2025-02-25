@@ -14,7 +14,11 @@ import java.util.Scanner;
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Enter the Number...");
 		
+		// using user variable 
 		int Num = Sc.nextInt();
+		
+		// int Num = 153;
+		
 		int temp = Num;
 		int rev = 0;
 		int sum = 0;
@@ -30,6 +34,7 @@ import java.util.Scanner;
 		else {
 			System.out.println("Not Armstrong Number");
 		}
+		Sc.close();
 	}
 
 }
