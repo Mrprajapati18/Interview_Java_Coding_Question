@@ -7,10 +7,6 @@ public class AnagramNum {
         String str1 = "Amit";
         String str2 = "Aman";
 
-        // Convert both strings to lowercase to make the comparison case-insensitive
-        str1 = str1.toLowerCase();
-        str2 = str2.toLowerCase();
-
         // Convert strings to character arrays
         char[] ch1 = str1.toCharArray();
         char[] ch2 = str2.toCharArray();
