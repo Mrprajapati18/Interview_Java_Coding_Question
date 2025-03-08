@@ -9,7 +9,7 @@ public class ReverseNumber {
 		
 		System.out.println("Enter the Number...");
 		
-		int Number = Sc.nextInt();
+		int Number = 123;
 		
 		int Reverse = 0;
 		
